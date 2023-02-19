@@ -134,6 +134,6 @@ const buildAbi = [
   },
 ];
 let contractAddress = "0x151c433814e0ED1C4130f6aAD41271805d273Cbe";
-let buildInstance = new web3.eth.Contract(buildAbi, contractAddress);
+let buildProxy = new web3.eth.Contract(buildAbi, contractAddress);
 
-export { indexerContract, buildInstance };
+export { indexerContract, buildProxy };
